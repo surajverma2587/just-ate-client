@@ -1,11 +1,13 @@
 import React from "react";
-import { Button } from "antd";
+import { BrowserRouter } from "react-router-dom";
+
+import Routes from "./Routes";
 
 const App = () => {
   return (
-    <div>
-      <Button type="primary">Primary Button</Button>
-    </div>
+    <BrowserRouter>
+      <Routes />
+    </BrowserRouter>
   );
 };
 
